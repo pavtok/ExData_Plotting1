@@ -1,4 +1,4 @@
-mywd <- "D:/Exploratory Data Analysis/Course Project 1/ExData_Plotting1"
+mywd <- "D:/Exploratory Data Analysis/Course Project 1"
 setwd(mywd)
 
 # Loading data:
