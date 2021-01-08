@@ -28,7 +28,6 @@ plot(y=data$Sub_metering_1, x=data$DateTime, type="n", ylab="Energy sub metering
 lines(y=data$Sub_metering_1, x=data$DateTime, col="black")
 lines(y=data$Sub_metering_2, x=data$DateTime, col="red")
 lines(y=data$Sub_metering_3, x=data$DateTime, col="blue")
-
 legend("topright", col=c("black", "blue", "red"), lty=1,
        legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
 
